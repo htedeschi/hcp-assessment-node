@@ -1,0 +1,24 @@
+{
+    "name": "hcp-assessment-node",
+    "version": "1.0.0",
+    "description": "A node app to complete the assessment HCP has given me",
+    "main": "index.js",
+    "scripts": {
+        "build": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "debug": "node --inspect index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/htedeschi/hcp-assessment-node.git"
+    },
+    "author": "Henrique Tedeschi",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/htedeschi/hcp-assessment-node/issues"
+    },
+    "homepage": "https://github.com/htedeschi/hcp-assessment-node#readme",
+    "dependencies": {
+        "axios": "^0.21.0"
+    }
+}
